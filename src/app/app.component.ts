@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 
+// Constant
+import { stationList } from './station-list.const';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,4 +10,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'MRTStationList';
+  list = stationList;
 }
